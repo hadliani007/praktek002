@@ -4,6 +4,13 @@ public class kulkas {
     
        int harga_kulkas;
        int jumlah_kulkas;
+
+    public kulkas(){
+          harga_kulkas=1200000;
+           jumlah_kulkas=5;
+    
+    }
+       
        
        void cetakInfo(){
            System.out.println("====================");
@@ -16,4 +23,7 @@ public class kulkas {
             total=harga_kulkas*jumlah_kulkas;
             return total;
  }        
+       void cetaktotal(){
+        System.out.println("Totalnya    = "+hitungPembelian());
     }
+}
