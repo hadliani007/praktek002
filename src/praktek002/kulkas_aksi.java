@@ -6,6 +6,8 @@ public class kulkas_aksi {
          
          r1.harga_kulkas = 6000000;
          r1.jumlah_kulkas = 5;  
+         
+         r1.cetakInfo();
     }
   
 }
