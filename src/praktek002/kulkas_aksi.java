@@ -8,6 +8,8 @@ public class kulkas_aksi {
          r1.jumlah_kulkas = 5;  
          
          r1.cetakInfo();
+         System.out.println("total   =   "+r1.hitungPembelian());
+         
     }
   
 }
