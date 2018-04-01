@@ -10,6 +10,12 @@ public class kulkas_aksi {
          r1.cetakInfo();
          System.out.println("total   =   "+r1.hitungPembelian());
          r1.cetaktotal();
+         
+         kulkas r2 = new kulkas();
+         r2.cetakInfo();
+         
+         kulkas r3 = new kulkas(120000,5);
+         r3. cetakInfo();
     }
   
 }

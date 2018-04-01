@@ -8,7 +8,14 @@ public class kulkas {
     public kulkas(){
           harga_kulkas=1200000;
            jumlah_kulkas=5;
+           
+           
     
+    }
+
+    public kulkas(int harga_kulkas, int jumlah_kulkas) {
+        this.harga_kulkas = harga_kulkas;
+        this.jumlah_kulkas = jumlah_kulkas;
     }
        
        
